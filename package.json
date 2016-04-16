@@ -1,0 +1,31 @@
+{
+  "name": "socket-test",
+  "version": "1.0.0",
+  "description": "nodejs socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinyting/socket-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinyting/socket-test/issues"
+  },
+  "homepage": "https://github.com/shinyting/socket-test#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bower": "^1.7.9",
+    "cookie-parser": "^1.4.1",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0",
+    "supervisor": "^0.10.0"
+  }
+}
