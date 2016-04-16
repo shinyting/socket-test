@@ -2,9 +2,8 @@
   "name": "socket-test",
   "version": "1.0.0",
   "description": "nodejs socket.io",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "supervisor ./bin/www"
   },
   "repository": {
     "type": "git",
