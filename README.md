@@ -21,3 +21,4 @@ socket.emit()只有自己收的到这个事件，
 socket.broadcast.emit()则表示向除自己外的所有人发送该事件；  
 io表示服务器整个socket连接，  
 io.sockets.emit()表示所有人都可以收到该事件  
+io.emit()表示所有人都可以收到该事件
