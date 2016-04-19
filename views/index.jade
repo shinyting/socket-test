@@ -1,4 +1,19 @@
 extends layout
 block content
+	div.mask
+		div.enform
+			div
+				input.nickname(type="text" placeholder="please enter your nickname")
+			div
+				button.setname ok
 	h1 #{title}
 	div.main
+	div.chatwrap
+		div.countbox
+			p 当前共
+				span.ucount 0
+				span 人在线
+		div.chatbox.clearfix
+		div.sendbox
+			textarea.mymsg
+			button.sendbtn send

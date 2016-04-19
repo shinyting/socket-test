@@ -22,3 +22,9 @@ socket.broadcast.emit()则表示向除自己外的所有人发送该事件；
 io表示服务器整个socket连接，  
 io.sockets.emit()表示所有人都可以收到该事件  
 io.emit()表示所有人都可以收到该事件
+
+
+###实现聊天室功能
+
+###解决跨域问题
+cors模块
