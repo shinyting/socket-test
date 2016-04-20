@@ -41,6 +41,7 @@ $(function () {
 	socket.on('nameExisted', function () {
 		$('.rtip').removeClass('none');
 		$('.mask').removeClass('none');
+		$('.uname').addClass('none');
 	});
 
 	//显示用户离开的信息
@@ -65,6 +66,8 @@ $(function () {
 	//保存用户名的方法
 	function saveUser () {
 		nickname = $('.nickname').val();
+		$('.uname').removeClass('none');
+		$('.uname').html(nickname);
 		if (!nickname) {
 			return;
 		}
